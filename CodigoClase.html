@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>datos personales </title>
+</head>
+
+<body>
+    <h1>ingreso de datos personales </h1>
+    <form>
+        <p>
+            <label>tipo de documento</label><br>
+            <select name="seleccionado">
+                <option>tarjeta de identidad</option>
+                <option>cedula de ciudadania</option>
+                <option>pasaporte</option>
+                <option>cedula de extranjeria</option>
+            </select>
+        </p>
+        <p>
+            <label>numero de documento</label><br>
+            <input type="text" placeholder=" numero de indetificacion" name="numid">
+        </p>
+        <p>
+            <label>ingrese su edad</label><br>
+            <input type="number" name="edad">
+        </p>
+        <p>
+            <label>ingrese su contraseña</label><br>
+            <input type="password" name="contraseña">
+        </p>
+        <p>
+            <label>escoja su hobie favorito</label><br>
+            <input type="radio" name="hobie" value="jugar futbol"><label>jugar futbol</label><br>
+            <input type="radio" name="hobie" value="escuchar musica "><label>escuchar musica</label><br>
+            <input type="radio" name="hobie" checked value="bailar"><label>bailar</label>
+        </p>
+        <p>
+            <label>elija su genero musica favorito</label><br>
+            <input type="checkbox" name="musica[]" checked value="salsa"> <label>salsa</label><br>
+            <input type="checkbox" name="musica[]" value="champeta"><label>champeta</label><br>
+            <input type="checkbox" name="musica[]" value="vallenato"><label>vallenato</label>
+        </p>
+        <p>
+            <label>fecha nacimiento</label><br>
+            <input type="date" name="fecha" min="1900-01-01" max="2022-12-31">
+        </p>
+        <p>
+            <label>elegir un mes </label><br>
+            <input type="month" name="mes">
+
+        </p><br>
+        <p>
+            <label>elegir una semana</label><br>
+            <input type="week" name="semana">
+        </p><br>
+        <p>
+            <label>elegir una hora</label> <br>
+            <input type="time" name="hora">
+        </p>
+        <p>
+            <label>elija fecha y hora </label><br>
+            <input type="datetime-local" name="fecha y hora">
+        </p>
+        <p>
+            <label>cargue un archivo </label><br>
+            <input type="file" name="cargar" multiple="">
+
+        </p>
+
+        <p>
+            <label> semana automatica </label><br>
+            <form action="">
+                <input type="datetime-local" id="datetimeLocal" />
+            </form>
+        </p>
+
+        <p>
+            <label> Nuero de telefono </label><br>
+            <form action="">
+                <input type="tel" id="tel" />
+
+        </p>
+
+        <p>
+            <label>dejenos su comentarios </label><br>
+            <textarea rows="10" cols="20" placeholder="escriba aqui su comentario" name="mensaje"></textarea>
+        </p>
+        <p>
+            <input type="submit" name="enviar" value="enviar">
+            <input type="button" name="boton" value="guardar">
+            <input type="reset" name="limpiar" value="limpiar">
+        </p>
+        <p>
+            <div style="width: 100%"><iframe width="100%" height="800" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=San%20antero%20cordoba+(Camu%20de%20san%20antero)&amp;t=h&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">GPS devices</a></iframe></div>
+        </p>
+        <p>
+            <video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/boiHSX3A4Wo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </video>
+        </p>
+        </form>
+</body>
+
+</html>
